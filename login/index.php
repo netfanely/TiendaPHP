@@ -2,8 +2,8 @@
   <body>
     <?php
       if ($_SERVER['REQUEST_METHOD'] == 'POST'){
-        $apodoBueno = 'bulma';
-        $contrasenyaBuena = '123';
+        $apodoBueno = 'demo';
+        $contrasenyaBuena = 'demo';
         $apodo = isset($_REQUEST['apodo']) ? $_REQUEST['apodo']:null;
         $contrasenya = isset($_REQUEST['contrasenya']) ? $_REQUEST['contrasenya'] : null;
         if($apodoBueno == $apodo &&  $contrasenyaBuena == $contrasenya){
